@@ -1,10 +1,5 @@
-Infinys Mailing List Contact
+Created by Infinys Odoo Team. This repository is odoo addons that will extend feature of Email Marketing
 
+The Mailing List Extended Module enhances the standard mailing list functionality by introducing advanced segmentation, subscription management, automation, and analytics features. This module is ideal for businesses that need precise control over their email marketing and audience targeting in Odoo.
 
-The Infinys Mailing List Contact module adds custom fields to the Email Marketing > Mailing List Contact form in Odoo. This module helps improve contact data management for your email marketing campaigns.
-
-1.Key Features
-  Adds new custom fields to the Mailing List Contact form
-  Seamless integration with Odoo Email Marketing
-  Makes it easier to segment contacts for campaigns
-  User-friendly and fully compatible with Odoo 18
+Visit Our Website : https://www.infinyscloud.com/
