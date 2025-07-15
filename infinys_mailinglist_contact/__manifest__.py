@@ -19,6 +19,7 @@
         'base',
         'mass_mailing',
     ],
+    'images': ['static/description/assets/infinyscloud.png'],
 
     # always loaded
     'data': [
