@@ -8,7 +8,7 @@
     'description': """
         The Mailing List Extended Module enhances the standard mailing list functionality by introducing advanced segmentation, subscription management, automation, and analytics features. This module is ideal for businesses that need precise control over their email marketing and audience targeting in Odoo.
     """,
-    'author': "Infinys Odoo",
+    'author': "Infinys System Indonesia",
     'website': "https://www.infinyscloud.com/platform/odoo/",
     'category': 'Marketing/Email Marketing',
     'version': '0.1',
