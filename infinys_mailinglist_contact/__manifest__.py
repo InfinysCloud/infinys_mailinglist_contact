@@ -29,13 +29,14 @@
   ],
 
   'images': [
-      'static/description/banner.png',
+       'static/assets/description/banner.jpg',
+       'static/description/banner.png',
        'static/description/active_module.png',
-        'static/description/import_data.png',
-        'static/description/mailing_list_form.png',
-         'static/description/mailinglist_contact_form.png',
-        'static/description/mailinglist_view.png',
-        'static/description/outgoing_mail_setup.png',
+       'static/description/import_data.png',
+       'static/description/mailing_list_form.png',
+       'static/description/mailinglist_contact_form.png',
+       'static/description/mailinglist_view.png',
+       'static/description/outgoing_mail_setup.png',
 
   ],
 
