@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Inherited user view for Adding API key.  -->
+    <record id="mailing_contact_view_form_inherit" model="ir.ui.view">
+        <field name="name">mailing.contact.form.extra.fields</field>
+        <field name="model">mailing.contact</field>
+        <field name="inherit_id" ref="mass_mailing.mailing_contact_view_form"/>
+        <field name="arch" type="xml">
+            <field name="message_bounce" position="after">
+                    <field name="job_position" widget="text"  placeholder="e.g. Sales Director"/> 
+                    <field name="phone" widget="phone"  placeholder="Phone"/> 
+                    <field name="mobile" widget="phone" placeholder="Mobile"/> 
+                    <field name="website" widget="url" placeholder="e.g. https://www.odoo.com"/> 
+            </field>
+            <field name="country_id" position="after">
+                <field
+                    name="state_id" domain="[('country_id', '=?', country_id)]" placeholder="e.g. California"/>
+                <field
+                    name="city" placeholder="e.g. New York"/>
+                <field
+                    name="postcode" placeholder="e.g. 10001"/>
+            </field>
+        </field>
+    </record>
+</odoo>

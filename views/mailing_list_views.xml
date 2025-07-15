@@ -1,0 +1,18 @@
+<odoo>
+  <record id="mailing_contact_view_list_extended" model="ir.ui.view">
+    <field name="name">mailing.contact.view.list.extended</field>
+    <field name="model">mailing.contact</field>
+    <field name="inherit_id" ref="mass_mailing.mailing_contact_view_tree"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='email']" position="after">
+        <field name="mobile" string="Mobile"/>
+        <field name="job_position" string="Job Position" optional="hide"/>
+        <field name="phone" string="Phone" optional="hide"/>
+        <field name="website" string="Website" optional="hide"/>
+        <field name="state_id" string="State" optional="hide"/>
+        <field name="city" string="City" optional="hide"/>        
+        <field name="postcode" string="Post Code" optional="hide"/>     
+     </xpath>
+    </field>
+  </record>
+</odoo>
