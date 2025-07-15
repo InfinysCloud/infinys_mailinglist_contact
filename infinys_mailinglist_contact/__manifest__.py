@@ -13,7 +13,7 @@
     'category': 'Marketing/Email Marketing',
     'version': '0.1',
     'license': 'AGPL-3',
-    'icon': '/infinys_mailinglist_contact/static/description/assets/infinyscloud.png',
+    'icon': '/infinys_mailinglist_contact/static/description/icon.png',
     # any module necessary for this one to work correctly
     'depends': [
         'base',
