@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "infinys_mailinglist_contact",
+    'name': "Infinys Mailinglist Contact",
 
     'summary': """
         Enhance Your Email Marketing with Advanced Mailing contact Features
